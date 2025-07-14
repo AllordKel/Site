@@ -1,0 +1,302 @@
+html, body {
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    background-color: #333333;
+}
+
+header {
+    position: fixed;
+    background-color: #00796b;
+    width: 100%;
+    height: 84px;
+}
+
+/*header_box*/
+header div { 
+    width: 100%;
+    max-width: 1219px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*logo*/
+header img { 
+    margin-left: 55px;
+    width: 184px;
+    height: 45px;
+}
+
+/*navigation panel*/
+header nav { 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-right: 54px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/*navigation panel text*/
+header nav a,
+span { 
+    color: white;
+    text-decoration: none;
+}
+
+/*block 2*/
+.PiperNetisHere { 
+    width: 100%;
+    min-height: 403px;
+    background-image: url("PiperNet.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 84px;
+}
+
+/*block 2 text*/
+div.PiperNetisHere span { 
+    color: white;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+/*block 3 background*/
+.part_3 {
+    background-color: white;
+    width: 100%;
+    min-height: 719px;
+    scroll-margin-top: 84px;
+}
+
+/*block 3 header box*/
+.The_Problem {
+    width: 100%;
+    max-width: 1219px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-top: 48px;
+}
+
+/*header text format*/
+.header_text {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 500;
+    color: #007765;
+}
+
+/*block 3 text box*/
+.texty {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+/*block 3 text decoration*/
+.texty span {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.part_4 {
+    width: 100%;
+    min-height: 483px;
+    background-image: url("together.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*block 4 text*/
+.part_4 span { 
+    color: white;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+/*block 5 background*/
+.part_5 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 604px;
+    scroll-margin-top: 84px;
+}
+
+/*block 5 header box*/
+.part_5_header {
+    width: 100%;
+    max-width: 1219px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+}
+
+/*block 5 image+text box*/
+.part_5_imagetext {
+    width: 100%;
+    max-width: 1219px;
+    height: 115px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    gap: 48px;
+}
+
+/*block 5 image+text text*/
+.part_5_imagetext span {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/*block 5 text box*/
+.part_5_text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-top: 40px;
+}
+
+/*block 5 text text*/
+.part_5_text span {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/*block 6 background*/
+.part_6 {
+    background-color: #EEEEEE;
+    width: 100%;
+    min-height: 845px;
+    scroll-margin-top: 84px;
+}
+
+/*block 6 header box*/
+.part_6_header {
+    width: 100%;
+    max-width: 1219px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+}
+
+/*block 6 row 1 rect*/
+.part_6_row1 {
+    width: 100%;
+    max-width: 1219px;
+    height: 283px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    gap: 30px;
+}
+
+/*block 6 photo rect*/
+.part_6_photo {
+    width: 350px;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo_name {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    color: #007765;
+    margin-top: 12px;
+}
+
+.photo_title {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    font-style: italic;
+}
+
+/*block 6 row 2 rect*/
+.part_6_row2 {
+    width: 100%;
+    max-width: 1219px;
+    height: 283px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+/*footer background*/
+.footer {
+    background-color: #333333;
+    width: 100%;
+    min-height: 176px;
+}
+
+/*footer rect*/
+.footer_box {
+    width: 100%;
+    max-width: 1219px;
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    text-align: center;
+    flex-direction: column;
+}
+
+/*footer text*/
+.footer_box span {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
